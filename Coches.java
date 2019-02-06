@@ -18,5 +18,13 @@ public class Coche{
 	public String getModelo(){
 		return this.modelo;
 	}
+	
+	public void setMarca(String marca){
+		this.marca=marca;
+	}
+
+	public String getMarca(){
+		return this.marca;
+}
 
 }
